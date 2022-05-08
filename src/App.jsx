@@ -26,7 +26,7 @@ function App() {
               <h3 className="subtitle">Navigation</h3>
               <ul>
                 <li><a href="/" title="Visit the main page [Alt+Shift+z]">Main page</a></li>
-                <li><a href="/">Recent changes</a></li>
+                <li><a href="/" title="A list of recent changes in the wiki [Alt+Shift+r]">Recent changes</a></li>
                 <li><a href="/">Random page</a></li>
                 <li><a href="/">Wiki projects</a></li>
                 <li><a href="/">Wiki rules</a></li>
