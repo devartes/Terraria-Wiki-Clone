@@ -1,0 +1,96 @@
+.sidebarNavigation {
+    border-radius: 0 0 5px 5px;
+}
+.subsidebarNavigation {
+    border-radius: 5px;
+}
+.sidebarNavigation,.subsidebarNavigation {
+    background: linear-gradient(rgba(20, 20, 20, 0.1), rgba(20, 20, 20, 0.1)), #60473b url("assets/img/Content-background-overworld.jpg");
+    width: 159px;
+    height: auto;
+    min-height: 256px;
+    max-height: 100%;
+    border: 1px solid rgba(255,255,255,0.1);
+    box-shadow: 0px 0px 15px 0px rgba(10,10,10,0.7);
+    margin: 0 0 12px 0;
+}
+
+.sidebarNavigation::before {
+    content: "";
+    background-image: url("assets/img/Grass-top-overworld.webp");
+    background-repeat: repeat-x;
+    position: absolute;
+    width: 158px;
+    height: 15px;
+    margin-top: -6px;
+}
+
+.subtitle {
+    background-color: rgba(20, 20, 20, 0.15);
+    border-bottom: 1px solid rgba(10, 10, 10);
+    width: 100%;
+    height: 31px;
+    padding: 6px 12px;
+    color: #eae3d1;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    font-family: Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.subtitle::after {
+    content: "";
+    display: inline-block;
+    background: 0 0;
+    position: relative;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid rgba(234, 227, 209, 0.5);
+    vertical-align: middle;
+    flex: 0 0 auto;
+}
+
+.sidebarNavigation ul,.subsidebarNavigation ul {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    min-height: 224px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4px 0;
+}
+
+.sidebarNavigation ul li,.subsidebarNavigation ul li   {
+   width: 150px; 
+   height: 24px;
+   padding: 0 8px;
+}
+
+.sidebarNavigation ul li:hover,.subsidebarNavigation ul li:hover  {
+   background-color: rgba(20,20,20,0.25);
+   border-radius: 5px;
+}
+.sidebarNavigation ul li a,.subsidebarNavigation ul li a {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #c4ebd0;
+    margin: 0;
+    padding: .25em 0;
+    font-size: .75em;
+    line-height: 1.125em;
+    white-space: nowrap;
+}

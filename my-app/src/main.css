@@ -1,0 +1,78 @@
+body {
+    background-image: url("assets/img/Site-background-overworld.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.headerContent {
+    display: flex;
+    width: 100%;
+    height: 35px;
+    background-color: #000538;
+    position: -webkit-sticky;
+    position: sticky;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    padding: 12px;
+}
+
+.headerContent .logo {
+    display: flex;
+    align-items: center;
+}
+
+.userArea {
+    display: flex;
+    gap: .75em;
+    white-space: nowrap;
+    
+}
+
+.userArea li a{
+    color: #fff;
+    font-size: 14px;
+}
+
+.userArea li a:hover{
+    color: #fff;
+    text-decoration:underline;
+}
+
+.main {
+    margin: 0 38px;
+    position: absolute;
+    
+}
+
+.title {
+    display: flex;
+    margin-top: 35px;
+    justify-content: center;
+    width: 100%;
+    height: 140px;
+  
+}
+
+.mainBlock {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.mainBlock .mainBlockContainer {
+    background-color: brown;
+    width: 1657px;
+    height: 1614px;
+    box-shadow: 0px 0px 15px 0px rgba(10,10,10,0.7);
+}
+
+.mainBlock .mainBlockContainer::before {
+    content: ".";
+    background-image: url("assets/img/Grass-top-overworld.webp");
+    background-repeat: repeat-x;
+    position: absolute;
+    width: 1657px;
+    height: 15px;
+    margin-top: -6px;
+  }
