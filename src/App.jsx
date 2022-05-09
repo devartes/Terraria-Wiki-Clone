@@ -115,10 +115,21 @@ function App() {
             <div className="head">
               <div className="headerRight">
                 <div className="headerToggle">
-                <span></span>
+                  <span></span>
                 </div>
+                <ul className="headerTab">
+                  <li className="selected"><a href="/">Main page</a></li>
+                  <li><a href="/">Discussion</a></li>
+                </ul>
               </div>
-              <div className="headerLeft">oi</div>
+              <div className="headerLeft">
+                <ul className="headerTab">
+                  <li className="selected"><a href="/">Read</a></li>
+                  <li><a href="/">View source</a></li>
+                  <li><a href="/">History</a></li>
+                </ul>
+                <div className="formContent">oi</div>
+              </div>
             </div>
           </div>
 
@@ -129,7 +140,7 @@ function App() {
           © wiki.gg
         </a>
           Copyright 2022 All Rights Reserved
-          </div>
+        </div>
         <div className="footerMiddle"> <img src={require("./assets/img/wiki-footer.png")} alt="wiki" /></div>
         <div className="footerLeft"><a href="/">Terms of Service</a>|<a href="/">Privacy Policy</a></div>
       </footer>
