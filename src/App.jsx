@@ -128,9 +128,20 @@ function App() {
                   <li><a href="/">View source</a></li>
                   <li><a href="/">History</a></li>
                 </ul>
-                <div className="formContent">oi</div>
+                <div className="formContent">
+                  <input type="text" placeholder="Search Terraria Wiki" />
+                  <button></button>
+                </div>
               </div>
             </div>
+            <div className="mainWrapper">
+              <div className="welcomeContent">
+                <div className="welcomeContentBlock">
+                  oi
+                </div>
+              </div>
+            </div>
+
           </div>
 
         </div>
