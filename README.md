@@ -1,3 +1,7 @@
+# Terraria Wiki Clone
+
+O objetivo deste clone , é apenas para estudo , o site oficial , é este aqui : https://terraria.wiki.gg/wiki/Terraria_Wiki
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
