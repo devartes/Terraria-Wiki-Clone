@@ -344,6 +344,11 @@ body {
     font-weight: 400;
     color: #9fecf0;
     font-family: Helvetica,Arial,sans-serif;
+    cursor: pointer;
+}
+
+.dataWiki span:hover {
+    text-decoration: underline;
 }
 
 .welcomeContentBlock .midia {
@@ -353,14 +358,13 @@ body {
 
 .midia ul {
     display: flex;
-    
+    padding: 0;
     
 }
 
 .midia ul li {
     display: flex;
     align-items: center;
-   
 }
 
 .midia ul li span {
