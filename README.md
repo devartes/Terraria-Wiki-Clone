@@ -7,7 +7,7 @@ Licença do Terraria Wiki Oficial: https://creativecommons.org/licenses/by-nc-sa
 Origem do CC-BY-NC-SA-3.0.txt: https://github.com/google/licenseclassifier/blob/main/licenses/CC-BY-NC-SA-3.0.txt<br/>
 Link do site do projeto: http://terraria-wiki-clone.vercel.app/
 
-# Getting Started with Create React App
+# Getting Started with Create React App <img src="https://i.ibb.co/SsCXk4C/H-4s-Lwd-Nzez-Zy-Dj-ZByy-S2-Q.gif" alt="H-4s-Lwd-Nzez-Zy-Dj-ZByy-S2-Q" border="0" width="60">
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
