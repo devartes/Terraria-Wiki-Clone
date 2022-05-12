@@ -1,3 +1,4 @@
+<img src="https://img.shields.io/badge/-Em%20constru%C3%A7%C3%A3o-green" border="0">
 <p align="center"><img src="https://i.ibb.co/H7x5dCb/custom-terraria-logo.png" alt="custom-terraria-logo" border="0"><img src="https://i.ibb.co/rfXym3K/lgvb-Wc-LG1-Wf-Mc6o-Xe-C1q9-A.gif" alt="lgvb-Wc-LG1-Wf-Mc6o-Xe-C1q9-A" border="0" width="70"></p>
 
 O objetivo deste clone , é apenas para estudo , o site oficial , é este aqui: https://terraria.wiki.gg/wiki/Terraria_Wiki<br/>
@@ -7,7 +8,9 @@ Licença do Terraria Wiki Oficial: https://creativecommons.org/licenses/by-nc-sa
 Origem do CC-BY-NC-SA-3.0.txt: https://github.com/google/licenseclassifier/blob/main/licenses/CC-BY-NC-SA-3.0.txt<br/>
 Link do site do projeto: http://terraria-wiki-clone.vercel.app/
 
-# Getting Started with Create React App <img src="https://i.ibb.co/SsCXk4C/H-4s-Lwd-Nzez-Zy-Dj-ZByy-S2-Q.gif" alt="H-4s-Lwd-Nzez-Zy-Dj-ZByy-S2-Q" border="0" width="60">
+<p align="center"><img src="https://i.ibb.co/MSNHgmt/teste.png" border="0" width="500"></p>
+
+# Getting Started with Create React App <img src="https://i.ibb.co/SsCXk4C/H-4s-Lwd-Nzez-Zy-Dj-ZByy-S2-Q.gif" border="0" width="60">
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
