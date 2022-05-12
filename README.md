@@ -4,7 +4,8 @@ O objetivo deste clone , é apenas para estudo , o site oficial , é este aqui: 
 Origem das imagens do projeto: https://terraria.wiki.gg/wiki/Terraria_Wiki<br/>
 Origem da arte da Logo: https://terraria-logo-maker.darthmorf.co.uk/<br/>
 Licença do Terraria Wiki Oficial: https://creativecommons.org/licenses/by-nc-sa/3.0/<br/>
-Origem do CC-BY-NC-SA-3.0.txt: https://github.com/google/licenseclassifier/blob/main/licenses/CC-BY-NC-SA-3.0.txt
+Origem do CC-BY-NC-SA-3.0.txt: https://github.com/google/licenseclassifier/blob/main/licenses/CC-BY-NC-SA-3.0.txt<br/>
+Link do site do projeto: http://terraria-wiki-clone.vercel.app/
 
 # Getting Started with Create React App
 
