@@ -2,6 +2,7 @@
 import './App.css';
 import './sidebar.css';
 import './main.css';
+import './index.css';
 
 function App() {
   return (
@@ -137,45 +138,44 @@ function App() {
             <div className="mainWrapper">
               <div className="welcomeContent">
                 <div className="welcomeContentBlock">
-                  <div className="welcomeTitle">
-                    <h1>Welcome to the Non-Official <span>Terraria Wiki,</span></h1>
-                    <span className="welcomeSubTitle">the comprehensive reference written and maintained by players.</span>
-                    <span className="dataWiki">
-                      <span>171 active editors&nbsp;</span>are currently maintaining&nbsp;<span>4,767 articles (46,235 total pages)&nbsp;</span>and&nbsp;<span>23,180 files.</span>
-                    </span>
-                  </div>
-                  <div className="midia">
-                    <ul className="links">
-                      <li>
+                  <div className="welcomeContentGroup">
+                    <div className="welcomeTitle">
+                      <h1>Welcome to the Official <span>Terraria Wiki,</span></h1>
+                      <span className="welcomeSubTitle">the comprehensive reference written and maintained by the players.</span>
+                      <span className="dataWiki">
+                        <span>171 active editors&nbsp;</span>are currently maintaining&nbsp;<span>4,767 articles (46,235 total pages)&nbsp;</span>and&nbsp;<span>23,180 files.</span>
+                      </span>
+                    </div>
+                    <div className="midia">
+                      <ul className="links">
                         <span>Links:</span>
-                      </li>
-                      <li><a href="/"><img src={require("./assets/img/16px-Terraria_icon.png")} alt="terraria icon" /></a></li>
-                      <li><a href="/"><img src={require("./assets/img/16px-Re-Logic_icon.png")} alt="re-logic icon" /></a></li>
-                      <li><a href="/"><img src={require("./assets/img/16px-Facebook.svg.png")} alt="facebook icon" /></a></li>
-                      <li><a href="/"><img src={require("./assets/img/16px-Twitter.svg.png")} alt="twitter icon" /></a></li>
-                      <li><a href="/"><img src={require("./assets/img/16px-Instagram.svg.png")} alt="instagram icon" /></a></li>
-                      <li><a href="/"><img src={require("./assets/img/16px-Discord.svg.png")} alt="discord icon" /></a></li>
-                      <li><a href="/"><img src={require("./assets/img/16px-Reddit.svg.png")} alt="reddit icon" /></a></li>
-                      <li><a href="/"><img src={require("./assets/img/16px-Twitch.svg.png")} alt="twitch icon" /></a></li>
-                      <li><a href="/"><img src={require("./assets/img/16px-TikTok.svg.png")} alt="tiktok icon" /></a></li>
-                    </ul>
-                    <ul className="buyTerraria">
-                      <li>
+                        <li><a href="/"><img src={require("./assets/img/16px-Terraria_icon.png")} alt="terraria icon" /></a></li>
+                        <li><a href="/"><img src={require("./assets/img/16px-Re-Logic_icon.png")} alt="re-logic icon" /></a></li>
+                        <li><a href="/"><img src={require("./assets/img/16px-Facebook.svg.png")} alt="facebook icon" /></a></li>
+                        <li><a href="/"><img src={require("./assets/img/16px-Twitter.svg.png")} alt="twitter icon" /></a></li>
+                        <li><a href="/"><img src={require("./assets/img/16px-Instagram.svg.png")} alt="instagram icon" /></a></li>
+                        <li><a href="/"><img src={require("./assets/img/16px-Discord.svg.png")} alt="discord icon" /></a></li>
+                        <li><a href="/"><img src={require("./assets/img/16px-Reddit.svg.png")} alt="reddit icon" /></a></li>
+                        <li><a href="/"><img src={require("./assets/img/16px-Twitch.svg.png")} alt="twitch icon" /></a></li>
+                        <li><a href="/"><img src={require("./assets/img/16px-TikTok.svg.png")} alt="tiktok icon" /></a></li>
+                      </ul>
+                      <ul className="buyTerraria">
                         <span>Buy Terraria:</span>
-                      </li>
-                      <li><a href="/"><img src={require("./assets/img/16px-Steam.svg.png")} alt="steam icon" /></a></li>
-                      <li><a href="/"><img src={require("./assets/img/16px-GOG.com.svg.png")} alt="gog.com icon" /></a></li>
-                      <li><a href="/"><img src={require("./assets/img/16px-PlayStation_Store.svg.png")} alt="playstation icon" /></a></li>
-                      <li><a href="/"><img src={require("./assets/img/16px-Xbox_360.svg.png")} alt="xbox icon" /></a></li>
-                      <li><a href="/"><img src={require("./assets/img/16px-Xbox_One.svg.png")} alt="xbox one icon" /></a></li>
-                      <li><a href="/"><img src={require("./assets/img/16px-Google_Play.svg.png")} alt="google play icon" /></a></li>
-                      <li><a href="/"><img src={require("./assets/img/16px-Amazon.svg.png")} alt="amazon icon" /></a></li>
-                      <li><a href="/"><img src={require("./assets/img/16px-Apple_App_Store.svg.png")} alt="apple icon" /></a></li>
-                      <li><a href="/"><img src={require("./assets/img/16px-Stadia.svg.png")} alt="stadia icon" /></a></li>
-                      <li><a href="/"><img src={require("./assets/img/16px-Microsoft_Store.svg.png")} alt="microsoft icon" /></a></li>
-                      <li><a href="/"><img src={require("./assets/img/16px-Nintendo_eShop.svg.png")} alt="nintendo eshop icon" /></a></li>
-                    </ul>
+                        <li><a href="/"><img src={require("./assets/img/16px-Steam.svg.png")} alt="steam icon" /></a></li>
+                        <li><a href="/"><img src={require("./assets/img/16px-GOG.com.svg.png")} alt="gog.com icon" /></a></li>
+                        <li><a href="/"><img src={require("./assets/img/16px-PlayStation_Store.svg.png")} alt="playstation icon" /></a></li>
+                        <li><a href="/"><img src={require("./assets/img/16px-Xbox_360.svg.png")} alt="xbox icon" /></a></li>
+                        <li><a href="/"><img src={require("./assets/img/16px-Xbox_One.svg.png")} alt="xbox one icon" /></a></li>
+                        <li><a href="/"><img src={require("./assets/img/16px-Google_Play.svg.png")} alt="google play icon" /></a></li>
+                        <li><a href="/"><img src={require("./assets/img/16px-Amazon.svg.png")} alt="amazon icon" /></a></li>
+                        <li><a href="/"><img src={require("./assets/img/16px-Apple_App_Store.svg.png")} alt="apple icon" /></a></li>
+                        <li><a href="/"><img src={require("./assets/img/16px-Stadia.svg.png")} alt="stadia icon" /></a></li>
+                        <li><a href="/"><img src={require("./assets/img/16px-Microsoft_Store.svg.png")} alt="microsoft icon" /></a></li>
+                        <li><a href="/"><img src={require("./assets/img/16px-Nintendo_eShop.svg.png")} alt="nintendo eshop icon" /></a></li>
+                      </ul>
+                    </div>
                   </div>
+
                 </div>
               </div>
             </div>
