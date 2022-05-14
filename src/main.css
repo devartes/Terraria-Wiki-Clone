@@ -376,6 +376,15 @@ body {
     margin: 2px 0;
 }
 
+.midia {
+    display: flex;
+    flex-direction: column;
+}
+
+.midiaContent {
+    display: flex;
+}
+
 .midia ul {
     display: flex;
     padding: 0;
@@ -394,13 +403,54 @@ body {
     font-weight: 700;
     font-size: 14px;
     margin-right: 12px;
+    position: relative;
 }
 
 .midia ul li a {
     margin: 0 2px;
+    display: flex;
+    align-items: center;
+}
+
+
+.versionContent {
+    display: flex;
+    margin: 6px 0;
+}
+
+.desktopBlock {
+    display: flex;
+    align-items: center;
+    margin: auto 4px;
+}
+
+.colorInvert {
+    filter: invert(1);
+}
+
+.versionContent .desktopVersion {
+    display: flex;
+    flex-direction: column;
+    margin: auto auto auto 3px;
+   align-items: flex-start;
+}
+
+.versionContent .desktopVersion li {
+    display: flex;
+    margin: 0;
+    padding: 0;
 
 }
 
+.smallText a {
+    color: #808080;
+    font-size: 9px;
+}
+
+.nameSite a {
+    font-size: 9px;
+    color: yellow;
+}
 
 
 footer {
