@@ -308,7 +308,7 @@ body {
     background: rgba(255, 255, 255, 0.03);
     width: auto;
     max-width: 1617px;
-    height: 177px;
+    height: 182px;
     padding: 8px 5px;
     margin: auto;
 }
@@ -379,6 +379,7 @@ body {
 .midia {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .midiaContent {
@@ -418,7 +419,7 @@ body {
     margin: 6px 0;
 }
 
-.desktopBlock {
+.desktopBlockGroup, .mobileBlock, .consoleBlockGroup {
     display: flex;
     align-items: center;
     margin: auto 4px;
@@ -428,30 +429,60 @@ body {
     filter: invert(1);
 }
 
-.versionContent .desktopVersion {
+.versionContent .desktopVersion, .versionContent .mobileVersion, .versionContent .consoleVersion {
     display: flex;
     flex-direction: column;
     margin: auto auto auto 3px;
-   align-items: flex-start;
+    align-items: flex-start;
 }
 
-.versionContent .desktopVersion li {
+.mobileBlockGroup {
+    display: flex;
+}
+
+.versionContent .desktopBlockGroup .desktopVersion li,
+.versionContent .mobileBlockGroup .mobileVersion li,
+.versionContent .consoleBlockGroup .consoleVersion li {
     display: flex;
     margin: 0;
     padding: 0;
 
 }
 
-.smallText a {
+.desktopBlock .desktopBlockGroup .desktopIcons,
+.mobileBlock .mobileBlockGroup .mobileIcons,
+.consoleBlock .consoleBlockGroup .consoleIcons {
+    margin: 0;
+}
+
+.smallTextPrimary {
+    margin: 0;
+    padding: 0;
+}
+
+.smallTextPrimary a {
+    font-size: 9px;
+    color: #9fecf0;
+}
+
+.smallTextPrimary {
+    font-size: 7px;
+    color: #9fecf0;
+    display: flex;
+    align-items: center;
+}
+
+.versionText a {
+    color: #9fecf0;
+    font-size: 15px;
+    padding: 2px 0;
+    font-weight: bolder;
+}
+
+.smallTextSecundary a {
     color: #808080;
     font-size: 9px;
 }
-
-.nameSite a {
-    font-size: 9px;
-    color: yellow;
-}
-
 
 footer {
     width: 100%;

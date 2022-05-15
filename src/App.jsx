@@ -177,16 +177,84 @@ function App() {
                       </div>
                       <div className="versionContent">
                         <div className="desktopBlock">
-                          <ul className="desktopIcons">
-                            <li><a href="/"><img src={require("./assets/img/26px-Windows_10.svg.png")} alt="windows" /></a></li>
-                            <li><a href="/"><img className="colorInvert" src={require("./assets/img/26px-MacOS.svg.png")} alt="macos" /></a></li>
-                            <li><a href="/"><img src={require("./assets/img/22px-Linux.svg.png")} alt="linux" /></a></li>
-                          </ul>
-                          <ul className="desktopVersion">
-                            <li className="nameSite"><a href="/">History</a></li>
-                            <li><a href="/">History</a></li>
-                            <li className="smallText"><a href="/">History</a></li>
-                          </ul>
+                          <div className="desktopBlockGroup">
+                            <ul className="desktopIcons">
+                              <li><a href="/"><img src={require("./assets/img/26px-Windows_10.svg.png")} alt="windows" /></a></li>
+                              <li><a href="/"><img className="colorInvert" src={require("./assets/img/26px-MacOS.svg.png")} alt="macos" /></a></li>
+                              <li><a href="/"><img src={require("./assets/img/22px-Linux.svg.png")} alt="linux" /></a></li>
+                            </ul>
+                            <ul className="desktopVersion">
+                              <li className="smallTextPrimary"><a href="/">Steam</a>•<a href="/">GOG.com</a></li>
+                              <li className="versionText"><a href="/">1.4.3.6</a></li>
+                              <li className="smallTextSecundary"><a href="/">Latest version</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div className="mobileBlock">
+                          <div className="mobileBlockGroup">
+                            <ul className="mobileIcons">
+                              <li><a href="/"><img src={require("./assets/img/26px-Apple_iOS.svg.png")} alt="Ios icon" /></a></li>
+                            </ul>
+                            <ul className="mobileVersion">
+                              <li className="smallTextPrimary"><a href="/">App Store</a></li>
+                              <li className="versionText"><a href="/">1.4.3.2.2</a></li>
+                              <li className="smallTextSecundary"><a href="/">Desktop 1.4.3.2</a></li>
+                            </ul>
+                          </div>
+                          <div className="mobileBlockGroup">
+                            <ul className="mobileIcons">
+                              <li><a href="/"><img src={require("./assets/img/24px-Google_Play.svg.png")} alt="Google play icon" /></a></li>
+                            </ul>
+                            <ul className="mobileVersion">
+                              <li className="smallTextPrimary"><a href="/">Google Play</a></li>
+                              <li className="versionText"><a href="/">1.4.3.2.2</a></li>
+                              <li className="smallTextSecundary"><a href="/">Desktop 1.4.3.2</a></li>
+                            </ul>
+                          </div>
+                          <div className="mobileBlockGroup">
+                            <ul className="mobileIcons">
+                              <li><a href="/"><img src={require("./assets/img/26px-Windows_10.svg.png")} alt="windows" /></a></li>
+                            </ul>
+                            <ul className="mobileVersion">
+                              <li className="smallTextPrimary"><a href="/">Steam</a>•<a href="/">GOG.com</a></li>
+                              <li className="versionText"><a href="/">1.4.3.6</a></li>
+                              <li className="smallTextSecundary"><a href="/">Latest version</a></li>
+                            </ul>
+                          </div>
+                          <div className="mobileBlockGroup">
+                            <ul className="mobileIcons">
+                              <li><a href="/"><img src={require("./assets/img/26px-Windows_10.svg.png")} alt="windows" /></a></li>
+                            </ul>
+                            <ul className="mobileVersion">
+                              <li className="smallTextPrimary"><a href="/">Steam</a>•<a href="/">GOG.com</a></li>
+                              <li className="versionText"><a href="/">1.4.3.6</a></li>
+                              <li className="smallTextSecundary"><a href="/">Latest version</a></li>
+                            </ul>
+                          </div>
+                          <div className="mobileBlockGroup">
+                            <ul className="mobileIcons">
+                              <li><a href="/"><img src={require("./assets/img/26px-Windows_10.svg.png")} alt="windows" /></a></li>
+                            </ul>
+                            <ul className="mobileVersion">
+                              <li className="smallTextPrimary"><a href="/">Steam</a>•<a href="/">GOG.com</a></li>
+                              <li className="versionText"><a href="/">1.4.3.6</a></li>
+                              <li className="smallTextSecundary"><a href="/">Latest version</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div className="consoleBlock">
+                          <div className="consoleBlockGroup">
+                            <ul className="consoleIcons">
+                              <li><a href="/"><img src={require("./assets/img/26px-Windows_10.svg.png")} alt="windows" /></a></li>
+                              <li><a href="/"><img className="colorInvert" src={require("./assets/img/26px-MacOS.svg.png")} alt="macos" /></a></li>
+                              <li><a href="/"><img src={require("./assets/img/22px-Linux.svg.png")} alt="linux" /></a></li>
+                            </ul>
+                            <ul className="consoleVersion">
+                              <li className="smallTextPrimary"><a href="/">Steam</a>•<a href="/">GOG.com</a></li>
+                              <li className="versionText"><a href="/">1.4.3.6</a></li>
+                              <li className="smallTextSecundary"><a href="/">Latest version</a></li>
+                            </ul>
+                          </div>
                         </div>
                       </div>
                     </div>
