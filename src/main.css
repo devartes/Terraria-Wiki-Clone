@@ -419,7 +419,7 @@ body {
     margin: 6px 0;
 }
 
-.desktopBlockGroup, .mobileBlock, .consoleBlockGroup {
+.desktopBlockGroup, .mobileBlock, .consoleBlock {
     display: flex;
     align-items: center;
     margin: auto 4px;
@@ -436,8 +436,9 @@ body {
     align-items: flex-start;
 }
 
-.mobileBlockGroup {
+.mobileBlockGroup,.consoleBlockGroup {
     display: flex;
+    align-items: center;
 }
 
 .versionContent .desktopBlockGroup .desktopVersion li,
@@ -451,8 +452,28 @@ body {
 
 .desktopBlock .desktopBlockGroup .desktopIcons,
 .mobileBlock .mobileBlockGroup .mobileIcons,
-.consoleBlock .consoleBlockGroup .consoleIcons {
+.consoleBlock .consoleBlockGroup .consoleIcons,
+.consoleBlock .consoleBlockGroup .consoleIconsTwo {
     margin: 0;
+}
+
+.consoleBlock .consoleBlockGroup .consoleIconsTwo {
+    display: flex;
+    flex-direction: column;
+}
+
+.consoleDivision {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.consoleDivision ul li {
+    margin: 1px;
+}
+
+.consoleIcons .consoleIconsMargin {
+    margin-left: 4px;
 }
 
 .smallTextPrimary {

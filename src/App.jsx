@@ -213,46 +213,82 @@ function App() {
                           </div>
                           <div className="mobileBlockGroup">
                             <ul className="mobileIcons">
-                              <li><a href="/"><img src={require("./assets/img/26px-Windows_10.svg.png")} alt="windows" /></a></li>
+                              <li><a href="/"><img src={require("./assets/img/28px-Amazon.svg.png")} alt="windows" /></a></li>
                             </ul>
                             <ul className="mobileVersion">
-                              <li className="smallTextPrimary"><a href="/">Steam</a>•<a href="/">GOG.com</a></li>
-                              <li className="versionText"><a href="/">1.4.3.6</a></li>
-                              <li className="smallTextSecundary"><a href="/">Latest version</a></li>
+                              <li className="smallTextPrimary"><a href="/">Amazon Appstore</a></li>
+                              <li className="versionText"><a href="/">1.4.0.5.2</a></li>
+                              <li className="smallTextSecundary"><a href="/">Desktop 1.4.0.5</a></li>
                             </ul>
                           </div>
                           <div className="mobileBlockGroup">
                             <ul className="mobileIcons">
-                              <li><a href="/"><img src={require("./assets/img/26px-Windows_10.svg.png")} alt="windows" /></a></li>
+                              <li><a href="/"><img src={require("./assets/img/32px-Stadia.svg.png")} alt="windows" /></a></li>
                             </ul>
                             <ul className="mobileVersion">
-                              <li className="smallTextPrimary"><a href="/">Steam</a>•<a href="/">GOG.com</a></li>
-                              <li className="versionText"><a href="/">1.4.3.6</a></li>
-                              <li className="smallTextSecundary"><a href="/">Latest version</a></li>
+                              <li className="smallTextPrimary"><a href="/">Stadia</a></li>
+                              <li className="versionText"><a href="/">1.4.0.5.3</a></li>
+                              <li className="smallTextSecundary"><a href="/">Desktop 1.4.0.5</a></li>
                             </ul>
                           </div>
                           <div className="mobileBlockGroup">
                             <ul className="mobileIcons">
-                              <li><a href="/"><img src={require("./assets/img/26px-Windows_10.svg.png")} alt="windows" /></a></li>
+                              <li><a href="/"><img src={require("./assets/img/27px-Windows_Phone.svg.png")} alt="windows" /></a></li>
                             </ul>
                             <ul className="mobileVersion">
-                              <li className="smallTextPrimary"><a href="/">Steam</a>•<a href="/">GOG.com</a></li>
-                              <li className="versionText"><a href="/">1.4.3.6</a></li>
-                              <li className="smallTextSecundary"><a href="/">Latest version</a></li>
+                              <li className="smallTextPrimary"><a href="/">Microsoft Store</a></li>
+                              <li className="versionText"><a href="/">1.2.4.3</a></li>
+                              <li className="smallTextSecundary"><a href="/">Desktop 1.2.4.1</a></li>
                             </ul>
                           </div>
                         </div>
                         <div className="consoleBlock">
                           <div className="consoleBlockGroup">
                             <ul className="consoleIcons">
-                              <li><a href="/"><img src={require("./assets/img/26px-Windows_10.svg.png")} alt="windows" /></a></li>
-                              <li><a href="/"><img className="colorInvert" src={require("./assets/img/26px-MacOS.svg.png")} alt="macos" /></a></li>
-                              <li><a href="/"><img src={require("./assets/img/22px-Linux.svg.png")} alt="linux" /></a></li>
+                              <li><a href="/"><img src={require("./assets/img/26px-Nintendo_Switch.svg.png")} alt="windows" /></a></li>
                             </ul>
                             <ul className="consoleVersion">
-                              <li className="smallTextPrimary"><a href="/">Steam</a>•<a href="/">GOG.com</a></li>
-                              <li className="versionText"><a href="/">1.4.3.6</a></li>
-                              <li className="smallTextSecundary"><a href="/">Latest version</a></li>
+                              <li className="smallTextPrimary"><a href="/">Nintendo Switch</a></li>
+                              <li className="versionText"><a href="/">1.4.3.2.0</a></li>
+                              <li className="smallTextSecundary"><a href="/">Desktop 1.4.3.2</a></li>
+                            </ul>
+                          </div>
+                          <div className="consoleBlockGroup">
+                            <ul className="consoleIconsTwo">
+                              <li><a href="/"><img src={require("./assets/img/21px-Xbox_One.svg.png")} alt="windows" /></a></li>
+                              <li><a href="/"><img className="colorInvert" src={require("./assets/img/51px-Playstation_4.svg.png")} alt="macos" /></a></li>
+                            </ul>
+                            <ul className="consoleVersion">
+                              <li className="smallTextPrimary"><a href="/">Xbox One</a>•<a href="/">PS4</a></li>
+                              <li className="versionText"><a href="/">1.4.3.2.0</a></li>
+                              <li className="smallTextSecundary"><a href="/">Desktop 1.4.3.2</a></li>
+                            </ul>
+                          </div>
+                          <div className="consoleBlockGroup">
+                            <div className="consoleDivision">
+                              <ul className="consoleIcons">
+                                <li><a href="/"><img src={require("./assets/img/21px-Xbox_360.svg.png")} alt="Xbox 360 icon" /></a></li>
+                                <li className="consoleIconsMargin"><a href="/"><img className="colorInvert" src={require("./assets/img/51px-Playstation_3.svg.png")} alt="Playstation 3" /></a></li>
+                              </ul>
+                              <ul className="consoleIcons">
+                                <li><a href="/"><img src={require("./assets/img/37px-Wii_U.svg.png")} alt="Wii U" /></a></li>
+                                <li><a href="/"><img className="colorInvert" src={require("./assets/img/60px-Playstation_Vita.svg.png")} alt="Playstation Vita" /></a></li>
+                              </ul>
+                            </div>
+                            <ul className="consoleVersion">
+                              <li className="smallTextPrimary"><a href="/">Xbox 360</a>•<a href="/">Wii U</a></li>
+                              <li className="versionText"><a href="/">1.09</a></li>
+                              <li className="smallTextSecundary"><a href="/">Desktop 1.2.4.1</a></li>
+                            </ul>
+                          </div>
+                          <div className="consoleBlockGroup">
+                            <ul className="consoleIcons">
+                              <li><a href="/"><img src={require("./assets/img/43px-3DS.svg.png")} alt="windows" /></a></li>
+                            </ul>
+                            <ul className="consoleVersion">
+                              <li className="smallTextPrimary"><a href="/">3DS</a></li>
+                              <li className="versionText"><a href="/">1.05</a></li>
+                              <li className="smallTextSecundary"><a href="/">Desktop 1.2.1</a></li>
                             </ul>
                           </div>
                         </div>
