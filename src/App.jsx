@@ -298,6 +298,18 @@ function App() {
 
                 </div>
               </div>
+              <div className="mainContent">
+                <div className="teste1 border">1</div>
+                <div className="teste2 border">2</div>
+                <div className="teste3 border">3</div>
+                <div className="teste4 border">4</div>
+                <div className="teste5 border">5</div>
+                <div className="teste6 border">6</div>
+                <div className="teste7 border">7</div>
+                <div className="teste8 border">8</div>
+                <div className="teste9 border">9</div>
+                <div className="teste10 border">10</div>
+              </div>
             </div>
 
           </div>
