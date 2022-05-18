@@ -65,7 +65,8 @@ body {
 
 .mainBlock .mainBlockContainer {
     background-color: #5a433a;
-    width: 100%;
+    width: auto;
+    min-width: calc(100% - 247px);
     height: 1614px;
     box-shadow: 0px 0px 15px 0px rgba(10, 10, 10, 0.7);
     margin-left: 12px;
@@ -373,14 +374,11 @@ body {
 .welcomeContentBlock .midia {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin: 2px 0;
 }
 
-.midia {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .midiaContent {
     display: flex;
@@ -480,18 +478,16 @@ body {
 .smallTextPrimary {
     margin: 0;
     padding: 0;
+    font-size: 7px;
+    color: #9fecf0;
+    display: flex;
+    align-items: center;
 }
 
 .smallTextPrimary a {
     font-size: 9px;
     color: #9fecf0;
-}
-
-.smallTextPrimary {
-    font-size: 7px;
-    color: #9fecf0;
-    display: flex;
-    align-items: center;
+    white-space: nowrap;
 }
 
 .versionText a {
@@ -504,6 +500,7 @@ body {
 .smallTextSecundary a {
     color: #808080;
     font-size: 9px;
+    white-space: nowrap;
 }
 
 .mainContent {
@@ -526,61 +523,61 @@ body {
 
 .mainContentGroup {
     display: flex;
-    margin: auto;
+ 
 }
 
 .mainContentGroup2 {
     display: flex;
-    margin: auto;
+  
 }
 
 .teste1 {
-    width: 1188.75px;
+    width: calc(100% - 1em);
     height: 369px; 
 }
 
 .teste2 {
-    width: 436.25px;
+    width: calc(100% - 1em);
     height: 369px;  
 }
 
 .teste3 {
-    width: 446.333px;
+    width: calc(100% - 1em);
     height: 285px;
 }
 
 .teste4 {
-    width: 629.333px;
+    width: calc(100% - 1em);
     height: 285px; 
 }
 
 .teste5 {
-    width: 545.333px;
+    width: calc(100% - 1em);
     height: 285px; 
 }
 
 .teste6 {
-    width: 797.567px;
+    width: calc(100% - 1em);
     height: 405.4px;
 }
 
 .teste7 {
-    width: 411.717px;
+    width: calc(100% - 1em);
     height: 405.4px;
 }
 
 .teste8 {
-    width: 411.717px;
+    width: calc(100% - 1em);
     height: 405.4px;
 }
 
 .teste9 {
-    width: 346.25px;
+    width: calc(100% - 1em);
     height: 167.8px;
 }
 
 .teste10 {
-    width: 1278.75px;
+    width: calc(100% - 1em);
     height: 167.8px; 
 }
 
