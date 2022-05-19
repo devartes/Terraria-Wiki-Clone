@@ -6,7 +6,7 @@ Origem das imagens do projeto: https://terraria.wiki.gg/wiki/Terraria_Wiki<br/>
 Origem da arte da Logo: https://terraria-logo-maker.darthmorf.co.uk/<br/>
 Licença do Terraria Wiki Oficial: https://creativecommons.org/licenses/by-nc-sa/3.0/<br/>
 Origem do CC-BY-NC-SA-3.0.txt: https://github.com/google/licenseclassifier/blob/main/licenses/CC-BY-NC-SA-3.0.txt<br/>
-Link do site do projeto: http://terraria-wiki-clone.vercel.app/
+Link do site do projeto: https://terraria-wiki-clone.vercel.app/
 
 <p align="center"><img src="https://i.ibb.co/MSNHgmt/teste.png" border="0" width="500"></p>
 
