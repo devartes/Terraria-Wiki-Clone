@@ -14,16 +14,18 @@
         border-color: rgba(255, 255, 255, 0.1) rgba(13, 4, 2, 0.2) rgba(13, 4, 2, 0.2) rgba(255, 255, 255, 0.1);
         border-style: solid;
     }
+
     .versionContent {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        
+
     }
+
     .welcomeContentBlock {
         height: auto;
     }
-    
+
 }
 
 @media only screen and (max-width: 1365px) {
@@ -62,14 +64,15 @@
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        justify-content: space-between;
-        background: linear-gradient(to top, rgba(20, 20, 20, 0.352), transparent 30%), #60473b url("assets/img/Navbar-background-overworld.webp");
-        width: 100%;
+        background: linear-gradient(0deg, hsla(0, 0%, 8%, .352), transparent 30%), #60473b url("assets/img/Navbar-background-overworld.webp");
+        border-radius: 0 0 6px 6px;
+        flex-direction: row;
         height: 40px;
         margin-bottom: 12px;
         position: relative;
+        width: 100%;
         z-index: 2;
-        border-radius: 0 0 6px 6px;
+        justify-content: flex-start;
     }
 
     .sidebarNavigation, .subsidebarNavigation {
@@ -97,10 +100,78 @@
     .subtitle {
         background-color: none;
         border-bottom: none;
+        width: auto;
+        max-width: 100%;
+    }
+
+   .subsidebarNavigation {
+        width: auto;
+        max-width: 100%;
+    }
+
+    .subtitle::after {
+        margin-left: 4px;
+    }
+
+    .sidebarNavigation,.subsidebarNavigation {
+        width: auto;
+        max-width: 100%;
+        min-width: 127px;
+        height: auto;
+        max-height: 100%;
+        border: none;
+        box-shadow: none;
+        margin: 0 0 12px 0;
+        background: none;
+    }
+    .sidebarNavigation ul,.subsidebarNavigation ul  {
+        display: none;
+     }
+
+    .sidebarNavigation ul:hover,.subsidebarNavigation ul:hover  {
+        background: linear-gradient(rgba(20, 20, 20, 0.1), rgba(20, 20, 20, 0.1)), #60473b url("assets/img/Content-background-overworld.jpg");
+        border: 1px solid rgba(255,255,255,0.1);
+        box-shadow: 0px 0px 15px 0px rgba(10,10,10,0.7);
+        visibility: visible;
+     }
+     
+    .sidebarNavigation ul li,.subsidebarNavigation ul li   {
+        width: calc(100% - 8px); 
+        min-width: 127px;
+        height: 24px;
+        padding: 0 8px;
+        white-space: nowrap;
+        max-width: 100%;
+     }
+
+     .subtitle {
+        white-space: nowrap;
     }
 
     .merch {
         display: none;
+    }
+
+    .headerToggle {
+        display: none;
+    }
+
+    .formContent {
+        align-items: center;
+        display: flex;
+        margin-bottom: 6px;
+        margin-left: 6px;
+        margin-right: 12px;
+        transform: translateY(-57px);
+        position: relative;
+        z-index: 3;
+      }
+
+      .headerRight .headerTab {
+       transform: translateX(5%);
+    }
+      .headerLeft .headerTab {
+       transform: translateX(90%);
     }
 
     .mainBlock .mainBlockContainer::before {
