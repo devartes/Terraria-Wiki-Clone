@@ -24,8 +24,9 @@ function App() {
         <div className="mainBlock">
           <div className="asideBlock">
             <aside className="sidebarNavigation">
-              <span className="subtitle">Navigation</span>
-              <ul>
+            <input id="toggle2" type="checkbox"/>
+              <label for="toggle2" className="subtitle animate">Navigation</label>
+              <ul className="animate">
                 <li><a href="/" title="Visit the main page [Alt+Shift+z]">Main page</a></li>
                 <li><a href="/" title="A list of recent changes in the wiki [Alt+Shift+r]">Recent changes</a></li>
                 <li><a href="/" title="Load a random page [Alt+Shift+x]">Random page</a></li>
@@ -38,8 +39,9 @@ function App() {
               </ul>
             </aside>
             <aside className="subsidebarNavigation">
-              <span className="subtitle">Guides</span>
-              <ul>
+            <input id="toggle3" type="checkbox"/>
+              <label for="toggle3" className="subtitle animate">Guides</label>
+              <ul className="animate">
                 <li><a href="/">Getting started</a></li>
                 <li><a href="/">Walkthrough</a></li>
                 <li><a href="/">Class setups</a></li>
@@ -52,8 +54,9 @@ function App() {
               </ul>
             </aside>
             <aside className="subsidebarNavigation">
-              <span className="subtitle">Portals</span>
-              <ul>
+            <input id="toggle4" type="checkbox"/>
+              <label for="toggle4" className="subtitle animate">Portals</label>
+              <ul className="animate">
                 <li><a href="/">terraria.org</a></li>
                 <li><a href="/">re-logic.com</a></li>
                 <li><a href="/">Terraria Forums</a></li>
@@ -66,8 +69,9 @@ function App() {
               </ul>
             </aside>
             <aside className="subsidebarNavigation">
-              <span className="subtitle">Tools</span>
-              <ul>
+            <input id="toggle5" type="checkbox"/>
+              <label for="toggle5" className="subtitle animate">Tools</label>
+              <ul className="animate">
                 <li><a href="/" title="A list of all wiki pages that link here [Alt+Shift+j]">What links here</a></li>
                 <li><a href="/" title="Recent changes in pages linked from this page [Alt+Shift+k]">Related changes</a></li>
                 <li><a href="/" title="A list of all special pages [Alt+Shift+q]">Special pages</a></li>
@@ -79,8 +83,9 @@ function App() {
               </ul>
             </aside>
             <aside className="subsidebarNavigation">
-              <span className="subtitle">Other languages</span>
-              <ul>
+            <input id="toggle6" type="checkbox"/>
+              <label for="toggle6" className="subtitle animate">Other languages</label>
+              <ul className="animate">
                 <li><a href="/" title="Terraria Wiki/it – italiano">Italiano</a></li>
                 <li><a href="/" title="Terraria Wiki/yue – 粵語">粵語</a></li>
                 <li><a href="/" title="Terraria Wiki – français">Français</a></li>

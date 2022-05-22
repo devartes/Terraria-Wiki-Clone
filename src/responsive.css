@@ -75,6 +75,44 @@
         justify-content: flex-start;
     }
 
+    .sidebarNavigation {
+        display: inline-block;
+    }
+
+    .sidebarNavigation .animate {
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        transition: all 0.3s;
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        /* Chrome and Safari */
+        -moz-backface-visibility: hidden;
+        /* Firefox */
+        -ms-backface-visibility: hidden;
+        /* Internet Explorer */
+    }
+
+    .sidebarNavigation input, .subsidebarNavigation input {
+        display: none;
+    }
+    
+    .sidebarNavigation input:checked ~ ul,.subsidebarNavigation input:checked ~ ul {
+        visibility: visible;
+        opacity: 1;
+        top: 0;
+    }
+    
+    
+    .sidebarNavigation input ~ ul, .subsidebarNavigation input ~ ul {
+        position: relative;
+        visibility: hidden;
+        opacity: 0;
+        top: -20px;
+        z-index: 1;
+    }
+
     .sidebarNavigation, .subsidebarNavigation {
         background: linear-gradient(rgba(20, 20, 20, 0.1), rgba(20, 20, 20, 0.1)), #60473b url("assets/img/Content-background-overworld.jpg");
         border: none;
@@ -98,53 +136,59 @@
     }
 
     .subtitle {
-        background-color: none;
+        background: none;
+        background-color: transparent;
         border-bottom: none;
         width: auto;
-        max-width: 100%;
+        min-width: 20px;
+        height: 100%;
+        bottom: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+    }
+    .subtitle::after {
+        top: 5px;
     }
 
-   .subsidebarNavigation {
-        width: auto;
-        max-width: 100%;
-    }
 
     .subtitle::after {
         margin-left: 4px;
     }
 
-    .sidebarNavigation,.subsidebarNavigation {
+    .sidebarNavigation, .subsidebarNavigation {
         width: auto;
-        max-width: 100%;
-        min-width: 127px;
-        height: auto;
+        height: 100px;
         max-height: 100%;
         border: none;
         box-shadow: none;
         margin: 0 0 12px 0;
-        background: none;
+        background: transparent;
     }
-    .sidebarNavigation ul,.subsidebarNavigation ul  {
-        display: none;
-     }
 
-    .sidebarNavigation ul:hover,.subsidebarNavigation ul:hover  {
+
+    
+    .sidebarNavigation ul:hover, .subsidebarNavigation ul:hover {
         background: linear-gradient(rgba(20, 20, 20, 0.1), rgba(20, 20, 20, 0.1)), #60473b url("assets/img/Content-background-overworld.jpg");
-        border: 1px solid rgba(255,255,255,0.1);
-        box-shadow: 0px 0px 15px 0px rgba(10,10,10,0.7);
-        visibility: visible;
-     }
-     
-    .sidebarNavigation ul li,.subsidebarNavigation ul li   {
-        width: calc(100% - 8px); 
-        min-width: 127px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 0px 15px 0px rgba(10, 10, 10, 0.7);
+        
+    }
+
+    .sidebarNavigation ul, .subsidebarNavigation ul {
+        width: auto;
+        
+    }
+    .sidebarNavigation ul li, .subsidebarNavigation ul li {
+        width: auto;
+        min-width: calc(100% - 4px);
         height: 24px;
-        padding: 0 8px;
+        padding: 0 4px;
         white-space: nowrap;
         max-width: 100%;
-     }
+    }
 
-     .subtitle {
+    .subtitle {
         white-space: nowrap;
     }
 
@@ -165,13 +209,14 @@
         transform: translateY(-57px);
         position: relative;
         z-index: 3;
-      }
-
-      .headerRight .headerTab {
-       transform: translateX(5%);
     }
-      .headerLeft .headerTab {
-       transform: translateX(90%);
+
+    .headerRight .headerTab {
+        transform: translateX(5%);
+    }
+
+    .headerLeft .headerTab {
+        transform: translateX(90%);
     }
 
     .mainBlock .mainBlockContainer::before {
