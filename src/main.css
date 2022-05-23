@@ -73,6 +73,7 @@ body {
     border-width: 1px 1px 0;
     border-color: rgba(255, 255, 255, 0.1) rgba(13, 4, 2, 0.2) rgba(13, 4, 2, 0.2) rgba(255, 255, 255, 0.1);
     border-style: solid;
+    margin-bottom: 38px;
 }
 
 .mainBlock .mainBlockContainer::before {
@@ -519,26 +520,27 @@ body {
     border-left-color: rgb(255, 255, 255, .1);
     border-radius: 8px;
     margin: 2px;
+    padding: 7px;
 }
 
 .mainContentGroup {
     display: flex;
- 
+
 }
 
 .mainContentGroup2 {
     display: flex;
-  
+
 }
 
 .teste1 {
     width: calc(100% - 1em);
-    height: 369px; 
+    height: 369px;
 }
 
 .teste2 {
     width: calc(100% - 1em);
-    height: 369px;  
+    height: 369px;
 }
 
 .teste3 {
@@ -548,12 +550,12 @@ body {
 
 .teste4 {
     width: calc(100% - 1em);
-    height: 285px; 
+    height: 285px;
 }
 
 .teste5 {
     width: calc(100% - 1em);
-    height: 285px; 
+    height: 285px;
 }
 
 .teste6 {
@@ -578,7 +580,25 @@ body {
 
 .teste10 {
     width: calc(100% - 1em);
-    height: 167.8px; 
+    height: 167.8px;
+}
+
+.headingContent {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0,0,0,.25);
+
+}
+
+.headerContentName {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 400;
+    background: #6b4f44;
+    padding-left: .5em;
+    padding-right: .5em;
 }
 
 footer {

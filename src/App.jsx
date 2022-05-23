@@ -306,7 +306,12 @@ function App() {
               </div>
               <div className="mainContent">
                 <div className="mainContentGroup">
-                  <div className="teste1 border">1</div>
+                  <div className="teste1 border">
+                    <div className="headingContent">
+                      <span className="headerContentName">The Game</span>
+                      <img src={require("./assets/img/25px-Tree.png")} alt="logo wiki.gg" />
+                    </div>
+                  </div>
                   <div className="teste2 border">2</div>
                 </div>
                 <div className="mainContentGroup2">

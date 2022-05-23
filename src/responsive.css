@@ -71,7 +71,7 @@
         margin-bottom: 12px;
         position: relative;
         width: 100%;
-        z-index: 2;
+        z-index: 3;
         justify-content: flex-start;
     }
 
@@ -97,20 +97,26 @@
     .sidebarNavigation input, .subsidebarNavigation input {
         display: none;
     }
-    
-    .sidebarNavigation input:checked ~ ul,.subsidebarNavigation input:checked ~ ul {
-        visibility: visible;
-        opacity: 1;
-        top: 0;
-    }
-    
-    
-    .sidebarNavigation input ~ ul, .subsidebarNavigation input ~ ul {
+
+    .sidebarNavigation input:checked~ul, .subsidebarNavigation input:checked~ul {
         position: relative;
         visibility: hidden;
         opacity: 0;
         top: -20px;
         z-index: 1;
+        transition: all .3s ease-in;
+        height: 0;
+        margin: 0;
+        overflow: hidden;
+    }
+
+
+    .sidebarNavigation input~ul, .subsidebarNavigation input~ul {
+        visibility: visible;
+        opacity: 1;
+        top: 0;
+        height: auto;
+        
     }
 
     .sidebarNavigation, .subsidebarNavigation {
@@ -120,9 +126,23 @@
     }
 
     .sidebarNavigation ul, .subsidebarNavigation ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 4px;
         background: linear-gradient(rgba(20, 20, 20, 0.1), rgba(20, 20, 20, 0.1)), #60473b url("assets/img/Content-background-overworld.jpg");
+        width: 158px;
+        height: auto;
         border: 1px solid rgba(255, 255, 255, 0.1);
         box-shadow: 0px 0px 15px 0px rgba(10, 10, 10, 0.7);
+        margin: 0 0 12px 0;
+        border-radius: 0 0 5px 5px;
+        transition: all .3s ease-in;
+        height: 216px;
+        overflow: hidden;
+        position: relative;
+        z-index: 1;
     }
 
     .sidebarNavigation::before {
@@ -146,7 +166,9 @@
         display: flex;
         justify-content: flex-start;
         align-items: baseline;
+        
     }
+
     .subtitle::after {
         top: 5px;
     }
@@ -167,18 +189,20 @@
     }
 
 
-    
+
     .sidebarNavigation ul:hover, .subsidebarNavigation ul:hover {
         background: linear-gradient(rgba(20, 20, 20, 0.1), rgba(20, 20, 20, 0.1)), #60473b url("assets/img/Content-background-overworld.jpg");
         border: 1px solid rgba(255, 255, 255, 0.1);
         box-shadow: 0px 0px 15px 0px rgba(10, 10, 10, 0.7);
-        
+
     }
 
     .sidebarNavigation ul, .subsidebarNavigation ul {
         width: auto;
-        
+       
+
     }
+
     .sidebarNavigation ul li, .subsidebarNavigation ul li {
         width: auto;
         min-width: calc(100% - 4px);
@@ -186,6 +210,7 @@
         padding: 0 4px;
         white-space: nowrap;
         max-width: 100%;
+        
     }
 
     .subtitle {
